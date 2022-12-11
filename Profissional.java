@@ -24,7 +24,7 @@ public class Profissional {
 
         System.out.println("\nNome: " + calculadora.Nome);
         System.out.println("Salário Mensal Pretendido: " + money.format(calculadora.SalarioMensal));
-        System.out.println("Horas Mês: " + time.format(calculadora.horasUteisMes));
+        System.out.println("Horas Mês: " + time.format(calculadora.horasUteisMes()));
         System.out.println("Valor/Hora: " + money.format(calculadora.CalcularValorHora()));
 
         ItemSistema[] listaItenSistemas = new ItemSistema[3];
