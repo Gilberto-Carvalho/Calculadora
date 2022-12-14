@@ -73,7 +73,7 @@ public class Profissional {
 //        }
 
 
-        double valorTotalSistema = calculadora.CalcularValorHora() * totalHorasTelas;
+        double valorTotalSistema = calculadora.CalcularValorHora() * totalHorasTelas * 1.3;
 
         System.out.println("\nValor Total do Orçamento: " + money.format(valorTotalSistema));
     }
